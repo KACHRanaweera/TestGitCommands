@@ -15,7 +15,7 @@ namespace Chathushka_test_proj.Controllers
         // GET: HomeController
         public string Index()
         {
-            return "HHHHHHHHHHHHHHCC Ranaweera";
+            return "K A C Heshan Ranaweera";
         }
 
         // GET: HomeController/Details/5
