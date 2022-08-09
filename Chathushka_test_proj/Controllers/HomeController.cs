@@ -88,6 +88,6 @@ namespace Chathushka_test_proj.Controllers
         //    }
         //}
 
-        //local test7
+        //remote test7
     }
 }
