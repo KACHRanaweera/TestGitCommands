@@ -16,7 +16,7 @@ namespace Chathushka_test_proj.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild"
         };
 
-        bool x = false;
+        
 
         private readonly ILogger<WeatherForecastController> _logger;
 
