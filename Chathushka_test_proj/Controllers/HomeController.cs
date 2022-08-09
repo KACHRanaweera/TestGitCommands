@@ -67,25 +67,12 @@ namespace Chathushka_test_proj.Controllers
         //    }
         //}
 
-        //// GET: HomeController/Delete/5
-        //public ActionResult Delete(int id)
-        //{
-        //    return View();
-        //}
-
-        // POST: HomeController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        // GET: HomeController/Delete/5
+        public ActionResult Delete(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+          return View();
         }
+
+       
     }
 }
