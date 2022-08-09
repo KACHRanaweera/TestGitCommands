@@ -72,7 +72,7 @@ namespace Chathushka_test_proj.Controllers
         {
           return View();
         }
-
+        //remote 
        
     }
 }
