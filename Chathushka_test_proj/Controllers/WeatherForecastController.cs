@@ -16,6 +16,11 @@ namespace Chathushka_test_proj.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild"
         };
 
+        private static readonly string[] Summaries2 = new[]
+        {
+            "Testing", "Coding"
+        };
+
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
